@@ -1,0 +1,95 @@
+/* Pamatstili visai lapai */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Intro sadaļa */
+.intro {
+    background-color: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Par mani sadaļa */
+.about {
+    padding: 30px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Apakšējā daļa */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Atbilstoši mobilajiem ekrāniem */
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+    }
+    
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .intro h1 {
+        font-size: 2em;
+    }
+
+    .about h2 {
+        font-size: 1.8em;
+    }
+}
